@@ -1,4 +1,4 @@
-@description('The Azure region into which the resources should be deployed.')
+@description('The Azure region into which the resources should be deployed..')
 param location string = resourceGroup().location
 
 @description('The name of the App Service app to deploy. This name must be globally unique.')
